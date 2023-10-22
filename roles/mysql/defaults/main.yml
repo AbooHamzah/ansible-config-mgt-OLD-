@@ -115,7 +115,7 @@ mysql_databases:
 # Users.
 mysql_users: 
    - name: WEBACCESS
-     host: 3.82.188.101
+     host: 0.0.0.0
      password: secret
      priv: '*.*:ALL,GRANT'
 
